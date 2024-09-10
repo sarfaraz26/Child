@@ -1,0 +1,12 @@
+name: Print Hello world manually
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name : Print Hello world
+        run : echo "Hello World!"
